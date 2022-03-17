@@ -1,0 +1,49 @@
+{
+  "name": "react-simple-minimal-carousel",
+  "version": "1.0.0",
+  "description": "A carousel component for react",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neon010/react-carousel.git"
+  },
+  "keywords": [
+    "react",
+    "carousel"
+  ],
+  "author": "mksMohan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neon010/react-carousel/issues"
+  },
+  "homepage": "https://github.com/neon010/react-carousel#readme",
+  "devDependencies": {
+    "@babel/core": "^7.17.7",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@rollup/plugin-commonjs": "^21.0.2",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@rollup/plugin-typescript": "^8.3.1",
+    "@types/react": "^17.0.40",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.7.1",
+    "rollup": "^2.70.1",
+    "rollup-plugin-dts": "^4.2.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "style-loader": "^3.3.1",
+    "tslib": "^2.3.1",
+    "typescript": "^4.6.2"
+  },
+  "peerDependencies": {
+    "react": "*"
+  }
+}
