@@ -13,7 +13,7 @@ export interface CarouselProps{
     showCurrentSlideNumber?:boolean
 }
 
-export const Carousel = ({
+const Carousel = ({
     images, 
     width, 
     height, 
@@ -116,4 +116,7 @@ export const Carousel = ({
             }
         </div>
     )
+
 }
+
+export default Carousel

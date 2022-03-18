@@ -16,8 +16,8 @@ yarn add react-simple-minimal-carousel
 
 ```jsx
 import './App.css';
-//@ts-ignore
-import Carousel from "react-simple-minimal-carousel"
+
+import {Carousel} from "react-simple-minimal-carousel"
 
 function App() {
   return (
