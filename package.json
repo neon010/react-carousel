@@ -1,6 +1,6 @@
 {
   "name": "react-simple-minimal-carousel",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A carousel component for react",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",

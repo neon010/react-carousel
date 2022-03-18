@@ -48,7 +48,13 @@ export default App;
 
 | Name                                     | Value                        | Description                                                                                                                                                                                                           |
 | ---------------------------------------- | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| width                                | `number`                   | Set the width of image.     |
-| height                               | `number`                   | Set the height of image     |
-| images                               | `array`                    | Set the image |                  
-
+| width                                | `number`                         | Set the width of image.                   |
+| height                               | `number`                         | Set the height of image                   |
+| images                               | `array`                          | Set the image                             |                  
+| showDots                             | `boolean` default `true`         | enable dots at the bottom of slide        |
+| currentImageDotsColor                | `string` default `#1e293b`       | color of current image dots               |
+| otherDotColor                        | `string` defaults `#e5e7eb`      | color of of other dots                    |
+| leftArrowLabel                       | `string` or `JSX`                | Set the label for left button             |
+| rightArrowLabel                      | `string` or `JSX`                | Set the label for right button            |
+| arrowStyle                           | `object`                         | Style object for left and right button    |
+| showCurrentSlideNumber               | `boolean` default                | current slide number at the left top      |
