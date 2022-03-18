@@ -44,3 +44,11 @@ function App() {
 export default App;
 ```
 
+### Props
+
+| Name                                     | Value                        | Description                                                                                                                                                                                                           |
+| ---------------------------------------- | ---------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| ariaLabel                                | `string`                     | Define the `aria-label` attribute for the root carousel element. The default is `undefined`, skipping the attribute from markup.                                                                                      |
+| axis                                     | `'horizontal'`, `'vertical'` | Define the direction of the slider, defaults to `'horizontal'`.                                                                                                                                                       |
+| autoFocus                                | `boolean`                    | Force focus on the carousel when it renders.                 
+
