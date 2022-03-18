@@ -8,3 +8,7 @@ A lightweight and fully customizable carousel component for React
 npm install react-simple-minimal-carousel
 ```
 
+```
+yarn add react-simple-minimal-carousel
+```
+
