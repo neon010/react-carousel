@@ -12,3 +12,17 @@ npm install react-simple-minimal-carousel
 yarn add react-simple-minimal-carousel
 ```
 
+### Usage
+
+```jsx
+import MyCustomComponent from 'react-simple-minimal-carousel';
+
+const MyApp = () => {
+  return (
+    <div>
+      <MyCustomComponent />
+    </div>
+  )
+}
+```
+
