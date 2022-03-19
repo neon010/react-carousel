@@ -4,7 +4,7 @@ A lightweight and fully customizable carousel component for React
 
 ### DEMO
 
-<http://leandrowd.github.io/react-responsive-carousel/>
+<https://neon010.github.io/react-simple-minimal-carousel-demo/>
 
 ### Installing as a package
 
