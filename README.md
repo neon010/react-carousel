@@ -2,6 +2,10 @@
 
 A lightweight and fully customizable carousel component for React
 
+### DEMO
+
+<http://leandrowd.github.io/react-responsive-carousel/>
+
 ### Installing as a package
 
 ```
@@ -15,8 +19,6 @@ yarn add react-simple-minimal-carousel
 ### Usage
 
 ```jsx
-import './App.css';
-
 import {Carousel} from "react-simple-minimal-carousel"
 
 function App() {
@@ -57,4 +59,4 @@ export default App;
 | leftArrowLabel                       | `string` or `JSX`                | Set the label for left button             |
 | rightArrowLabel                      | `string` or `JSX`                | Set the label for right button            |
 | arrowStyle                           | `object`                         | Style object for left and right button    |
-| showCurrentSlideNumber               | `boolean` default                | current slide number at the left top      |
+| showCurrentSlideNumber               | `boolean` default `true`         | current slide number at the left top      |
